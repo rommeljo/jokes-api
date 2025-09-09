@@ -12,7 +12,7 @@ from requests.auth import HTTPBasicAuth
 from datetime import datetime
 from datetime import timedelta
 from functools import wraps
-from app.mpesa import make_stk_push
+
 
 
 app=Flask(__name__)
